@@ -11,30 +11,9 @@ def Arrays_list():
               print(k)
 Arrays_list()
 
-#write the program to find the sum of elements in a list?
-"""
-def Arrays_list():
-    list=[23,56,74,43,21]
-    sum=0
-    for i in list:
-          sum=sum+i
-    print("Sum of list is",sum)
-Arrays_list()"""
 
-#Program to find the minimum and maximum element of array?
-arr=[21,10,56,43,24]
-print("min",min(arr))
-print("max",max(arr))
-minimum=arr[0]
-for i in range (len(arr)):
-    if arr[i]<minimum:
-         minimum=arr[i]
-print(minimum)
-maximum=arr[0]
-for i in range (len(arr)):
-    if arr[i]>maximum:
-         maximum=arr[i]
-print(maximum)
+
+
 
 
 
